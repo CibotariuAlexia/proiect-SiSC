@@ -76,9 +76,34 @@
     </div>
       <div class="formular" id="formular">
         <h3 class="titlu-form">Formular de înscriere</h3>
-        <form action="">
+        <form>
+          <label for="nume"> Nume </label>
+          <input type="text" id="nume">
+          <label for="prenume"> Prenume</label>
+          <input type="text" id="prenume">
+          <label for="alegere">Alegeti un sport</label>
+          <select name="sport" id="sport" aria-placeholder="alegeti un sport">
+              <option value="fotbal">Fotbal (sport de echipa)l</option>
+              <option value="baschet">Baschet (sport de echipa)</option>
+              <option value="volei">Volei (sport de echipa)</option>
+              <option value="tenis">Tenis (sport de echipa)</option>
+              <option value="tenis">Tenis (sport individual)</option>
+              <option value="semimaraton">Semimaraton (sport individiual)</option>
+          </select>
+          <label for="nume_echipa">Nume echipa: (se completeaza doar daca ati ales sport de
+              echipa)</label>
+  
+          <input type="text" id="nume_echipa" name="nume_echipa">
+          <label for="membrii_echipa">Membrii echipa: (se completeaza doar daca ati ales sport de
+              echipa)</label>
+          <textarea id="membrii_echipa" name="membrii_echipa"></textarea>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="telefon">Nr. telefon:</label>
+          <input type="tel" id="telefon" name="telefon">
 
-        </form>
+          <input class="buton-form" type="submit" value="Trimite"> 
+      </form>
       </div>
       <div class="locatie">
         <iframe

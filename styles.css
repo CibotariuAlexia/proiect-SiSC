@@ -214,12 +214,6 @@ html{
     background-position-y: -200px;
     background-repeat: no-repeat;
 }
-.titlu-form{
-    text-align: center;
-    color: aliceblue;
-    font-size: 40px;
-    padding: 20px;
-}
 .upper{
     z-index: 0;
 }
@@ -311,6 +305,33 @@ html{
       }
   }
 
+  .titlu-form{
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    padding: 20px;
+}
 
+form{
+  width: 60vw;
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 35px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  line-height: 2.5rem;
+  justify-content: center;
+  padding: 30px;
+}
+form input,select,textarea{
+  width: 300px;
+}
+form textarea{
+  height: 140px;
+}
+.buton-form{
+margin-top: 2.5rem;
+}
 
   

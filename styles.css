@@ -244,13 +244,11 @@ html{
         padding: 10px;
         font-size: 16px;
       }
-      
       .sport-grid p {
         bottom: 30px;
         left: 10px;
         font-size: 150px;
       }
-
     .descriere-container p, .text2 {
         font-size: 16px;
         line-height: 1.5;
@@ -279,9 +277,8 @@ html{
         font-size: 13px;
         line-height: 1.5;
       }
-  }
-
-  @media screen and (max-width:550px) {
+    }
+  @media screen and (max-width:580px) {
     .sport-grid {
         width: 100px;
         height: 24vh;
@@ -303,19 +300,23 @@ html{
         font-size: 13px;
         padding: 50px;
       }
-  }
+      form label{
+        line-height: 0.5rem;
+        font-size: 20px;
+      }
+    }
 
-  .titlu-form{
-    text-align: center;
-    color: aliceblue;
-    font-size: 40px;
-    padding: 20px;
+.titlu-form{
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  padding: 20px;
 }
 
 form{
   width: 60vw;
   height: 80vh;
-  background-color: rgb(255, 255, 255);
+  color: white;
   border-radius: 35px;
   display: flex;
   flex-direction: column;
@@ -323,15 +324,30 @@ form{
   line-height: 2.5rem;
   justify-content: center;
   padding: 30px;
+  background: rgba(0,0,0,0.5);
+}
+form label{
+  font-size: 12px;
+  margin: auto;
 }
 form input,select,textarea{
-  width: 300px;
+  width: 15vw;
+  border-radius: 10px;
+  padding-left: 1vw;
+  margin: auto;
+
 }
 form textarea{
-  height: 140px;
+  width: 15vw;
+  height: 20vh;
+  resize: none;
+  padding-top: 5px;
+  padding-bottom: 70px;
+
 }
 .buton-form{
-margin-top: 2.5rem;
+margin-top: 1.5rem;
+padding: 5px;
 }
 
   

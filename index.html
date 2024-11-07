@@ -78,13 +78,13 @@
         <h3 class="titlu-form">Formular de înscriere</h3>
         <form>
           <label for="nume"> Nume </label>
-          <input type="text" id="nume">
+          <input type="text" id="nume" required>
           <label for="prenume"> Prenume</label>
-          <input type="text" id="prenume">
+          <input type="text" id="prenume" required>
           <label for="alegere">Alegeti un sport</label>
-          <select title="sport" name="sport" id="sport">
+          <select title="sport" name="sport" id="sport" >
               <option value="">Alegeti un sport</option>
-              <option value="fotbal">Fotbal (sport de echipa)l</option>
+              <option value="fotbal">Fotbal (sport de echipa)</option>
               <option value="baschet">Baschet (sport de echipa)</option>
               <option value="volei">Volei (sport de echipa)</option>
               <option value="tenis">Tenis (sport de echipa)</option>
@@ -99,10 +99,9 @@
               echipa)</label>
           <textarea id="membrii_echipa" name="membrii_echipa"></textarea>
           <label for="email">Email:</label>
-          <input type="email" id="email" name="email">
+          <input type="email" id="email" name="email" required>
           <label for="telefon">Nr. telefon:</label>
-          <input type="tel" id="telefon" name="telefon">
-
+          <input type="tel" id="telefon" name="telefon" required>
           <input class="buton-form" type="submit" value="Trimite"> 
       </form>
       </div>

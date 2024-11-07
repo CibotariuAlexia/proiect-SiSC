@@ -76,11 +76,11 @@
     </div>
       <div class="formular" id="formular">
         <h3 class="titlu-form">Formular de înscriere</h3>
-        <form>
+        <form action="/api/user" method="post">
           <label for="nume"> Nume </label>
-          <input type="text" id="nume">
+          <input type="text" id="nume" name="nume">
           <label for="prenume"> Prenume</label>
-          <input type="text" id="prenume">
+          <input type="text" id="prenume" name="prenume">
           <label for="alegere">Alegeti un sport</label>
           <select title="sport" name="sport" id="sport">
               <option value="">Alegeti un sport</option>
